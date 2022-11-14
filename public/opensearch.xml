@@ -2,9 +2,9 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>Hussain</ShortName>
     <LongName>Hussain Search</LongName>
-    <Description>Search for videos, channels, and playlists on Piped</Description>
+    <Description>Search for videos, channels, and playlists on Hussain</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Image width="48" height="48" type="image/x-icon">https://andrewtate.netlify.app/favicon.ico</Image>
-    <Url method="get" rel="results" type="text/html" template="https://piped.kavin.rocks/results?search_query={searchTerms}" />
+    <Url method="get" rel="results" type="text/html" template="https://andrewtate.netlify.app/results?search_query={searchTerms}" />
     <Url method="get" rel="suggestions" type="application/x-suggestions+json" template="https://pipedapi.kavin.rocks/opensearch/suggestions?query={searchTerms}" />
 </OpenSearchDescription>
