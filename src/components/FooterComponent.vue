@@ -1,24 +1,8 @@
 <template>
     <footer class="efy_trans_filter">
-        <a aria-label="GitHub" href="https://github.com/TeamPiped/Piped" target="_blank">
+        <a aria-label="GitHub" href="https://kefla.vercel.app/" target="_blank">
             <font-awesome-icon :icon="['fab', 'github']" />
-            <span v-t="'actions.source_code'" />
-        </a>
-        <a href="https://piped-docs.kavin.rocks/" target="_blank">
-            <font-awesome-icon :icon="['fa', 'book']" />
-            <span v-t="'actions.documentation'" />
-        </a>
-        <a href="https://github.com/TeamPiped/Piped#donations" target="_blank">
-            <font-awesome-icon :icon="['fab', 'bitcoin']" />
-            <span v-t="'actions.donations'" />
-        </a>
-        <a v-if="statusPageHref" :href="statusPageHref">
-            <font-awesome-icon :icon="['fa', 'server']" />
-            <span v-t="'actions.status_page'" />
-        </a>
-        <a v-if="donationHref" :href="donationHref">
-            <font-awesome-icon :icon="['fa', 'donate']" />
-            <span v-t="'actions.instance_donations'" />
+            <span v-t="'anime'" />
         </a>
     </footer>
 </template>
