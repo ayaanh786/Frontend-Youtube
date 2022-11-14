@@ -2,7 +2,7 @@
     <nav class="pp-nav flex flex-wrap items-center justify-center px-2 sm:px-4 py-2.5 w-full relative">
         <div class="flex-1 flex justify-start pp-logo">
             <router-link class="flex font-bold text-3xl items-center font-sans" to="/"
-                ><img alt="logo" src="/img/icons/logo.svg" height="32" width="32" />iped</router-link
+                ><img alt="logo" src="/img/icons/logo.svg" height="32" width="32" />Hussain</router-link
             >
         </div>
         <div class="lt-md:hidden flex flex-1 justify-start">
