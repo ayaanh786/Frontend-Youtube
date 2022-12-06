@@ -1,6 +1,6 @@
 <template>
     <footer class="efy_trans_filter">
-        <a aria-label="GitHub" href="https://kefla.vercel.app/" target="_blank">
+        <a aria-label="GitHub" href="https://hussain-anime.netlify.app/" target="_blank">
             <font-awesome-icon :icon="['fab', 'github']" />
             <span v-t="'anime'" />
         </a>
